@@ -1,0 +1,23 @@
+.form-user-container{
+    .input{
+        width: 90%;
+        margin:  0 auto;
+        display: block;
+        border: solid 2px black;
+        background: white;
+        line-height: 30px;
+        padding: 0px 10px;
+    }
+    .button{
+        background: #e67d21;
+        margin: 0 auto;
+        display: block;
+        color: white;
+        line-height: 40px;
+        padding: 0px 10px;
+        border: none;
+        margin-top: 13px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}

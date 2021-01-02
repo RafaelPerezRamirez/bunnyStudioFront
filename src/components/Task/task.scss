@@ -1,0 +1,27 @@
+.task-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    border-bottom: solid 1px #a0a0a0;
+    align-items: center;
+    .left-task{
+        display: flex;
+        width: 100%;
+        .description{
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .close-container{
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+    .right-task{
+        .button{
+            line-height: 30px;
+        }
+    }
+}
+.container-padding{
+    padding: 20px;
+}

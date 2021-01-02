@@ -1,0 +1,20 @@
+.users-container{
+    background: #F1F1F1;
+    height: 45vh;
+    overflow-y: auto;
+}
+.form-container{
+    padding-top: 10px;
+    button{
+        display: block;
+        width: 100%;
+        line-height: 40px;
+        color: white;
+        background: rgb(230, 125, 33);
+        border: none;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}

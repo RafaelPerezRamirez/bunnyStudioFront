@@ -1,0 +1,21 @@
+.task-form-container{
+    background: #232a42;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .input{
+        width: 300px;
+        background: transparent;
+        line-height: 40px;
+        border: solid 2px white;
+        color: white;
+        padding: 0px 20px;
+        &::placeholder {
+            color: white;
+        }
+        &:focus{
+            outline-style: none;
+        }
+    }
+}
